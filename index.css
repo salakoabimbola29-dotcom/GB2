@@ -207,49 +207,112 @@ footer h4{
   border-radius: 4px;
   font-weight: 600;
 }
-@media (max-width: 768px){
-  .section2{
-    width: 100%;
-    display: block;
+@media (max-width: 480px) {
+  body {
+    overflow-x: hidden;
   }
-  .section3{
-    width: 100%;
-    display: block;
+  .section1 {
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    flex-wrap: wrap;
   }
-  .section4{
+  .GBWEARS {
+    font-size: 16px;
+    font-weight: 900;
+  }
+  .section2 {
+    font-size: 11px;
+    margin: 0 4px;
+  }
+  .section3 {
+    display: none; 
+  }
+  .section4 {
+    padding: 30px 16px;
+  }
+  .section4 h1 {
+    font-size: 27px;
+    line-height: 33px;
+  }
+  .section4 h3 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .section4 p {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
     width: 100%;
-    display: block;
+  }
+  .section5, .section6 {
+    width: 100%;
     text-align: center;
+    padding: 12px;
+    display: block ;
   }
-  .section5{
-    width: 100%;
-    display: block;
+  .section6 {
+    display: flex;
+     gap: 10px;
+    margin-top: 20px;
+    font-size: 10px;
   }
-  .section6{
-    width: 100%;
-    display: block;
+  .section7 {
+    padding: 0 16px;
   }
-  .section7{
-    width: 100%;
-    display: block;
+  .section7 img {
+    width: 100% ;
+    height: auto;
+    border-radius: 10px;
   }
-  .section8{
-    width: 100%;
-    display: block;
+  .section8 {
+    padding: 25px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
   }
-  .section10{
-    width: 100%;
-    display: block;
+  .section9 {
+    padding: 20px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
-  .section10 div{
-    width: 100%;
-    margin-bottom: 20px;
+  .section10 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 16px 30px ;
   }
-  .section11{
+  .section10  div {
     width: 100%;
-    display: block;
   }
-  img{
+  .section10 img {
     width: 100%;
+    height: auto;
+  }
+  .section11 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 16px;
+  }
+  .section12 {
+    width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+  .footer2 {
+    width: 100%;
+  }
+  .footer3 {
+    width: 100%;
+    margin-top: 10px;
   }
 }
